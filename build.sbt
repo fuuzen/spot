@@ -111,6 +111,7 @@ lazy val `spot-complete` = projectMatrix
             `opentelemetry-sdk`,
             `opentelemetry-sdk-autoconfigure`,
             `opentelemetry-exporter-otlp`,
+            `opentelemetry-exporter-zipkin`,
             scalaTest % Test,
             scalactic % Test
         ),

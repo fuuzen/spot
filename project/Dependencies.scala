@@ -23,6 +23,7 @@ object Dependencies {
   val `opentelemetry-sdk-autoconfigure` = "io.opentelemetry" % "opentelemetry-sdk-extension-autoconfigure" % openTelemetryVersion
   val `opentelemetry-sdk-testing` = "io.opentelemetry" % "opentelemetry-sdk-testing" % openTelemetryVersion
   val `opentelemetry-exporter-otlp` = "io.opentelemetry" % "opentelemetry-exporter-otlp" % openTelemetryVersion
+  val `opentelemetry-exporter-zipkin` = "io.opentelemetry" % "opentelemetry-exporter-zipkin" % openTelemetryVersion
   val `spark-core-3.3` = "org.apache.spark" %% "spark-core" % "3.3.4"
   val `spark-core-3.4` = "org.apache.spark" %% "spark-core" % "3.4.4"
   val `spark-core-3.5` = "org.apache.spark" %% "spark-core" % "3.5.5"
